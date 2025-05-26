@@ -6,6 +6,7 @@ body {
 
 #nav-div {
     margin-left: 60vw;
+    margin-top: 4vh;
     display: flex;
     flex-direction: row;
 }
@@ -17,5 +18,9 @@ body {
 }
 
 #lara {
+    text-align: center;
+}
+
+#divisao {
     text-align: center;
 }
