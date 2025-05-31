@@ -18,16 +18,60 @@ body {
     margin-left: 1.5vw;
 }
 
-#lara {
+#laradiv {
     text-align: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+#laradiv h1 {
+    font-size: 50px;
+}
+
+
+#lara-heading, #diogo-heading {
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+#lara-heading, #diogo-heading {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 #divisao {
     text-align: center;
     width: 100%;
     height: 25vh;
-    background-color: aqua;
+    background-color: rgb(240, 184, 63);
 }
+
+#divisao h2 {
+    padding-top: 4%;
+}
+
+#quem-somos {
+margin-left: 6vw;
+font-size: 30px;
+}
+
 
 #sectionsomos {
     display: flex;
@@ -40,13 +84,29 @@ body {
     margin-right: auto;
 }
 
+.quemsomosdiv img {
+    width: 35vw;
+}
+
 #quem-somos-text {
     width: 40vw;
 }
 
+footer {
+    color: white;
+    background-color: rgb(35, 32, 32);
+}
+
 .div-footer {
-    display: flex;
-    flex-direction: row;
+    margin: 20px;
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+#footer-logo {
+    grid-column: 1 / span 2;
 }
 
 #footer-social div {
@@ -56,4 +116,8 @@ body {
 
 #footer-social svg {
     margin-right: 8px;
+}
+
+#rights {
+    text-align: center;
 }
