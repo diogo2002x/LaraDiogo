@@ -121,3 +121,56 @@ footer {
 #rights {
     text-align: center;
 }
+
+#title-formacao {
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+.heading-formacao {
+    text-align: center;
+}
+
+.paragraph-formacao {
+    margin: 30px;
+
+    text-align: center;
+}
+
+#epsm, #esgts {
+width: 99vw;
+}
+
+.grid-formacao {
+    display: grid;
+    grid-template-columns: auto auto;
+    box-align: center;
+}
+
+.grid-formacao div{
+    width: 45%;
+    margin-left: 40%;
+}
+
+.polonia {
+    width: 15vw;
+}
+
+#erasmus {
+width: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.contacto-body {
+    text-align: center;
+}
+
+.contacto-body h1 {
+    margin-top: 14%;
+}
+
+.contacto-icons svg {
+width: 3%;
+margin-right: 5px;
+}
